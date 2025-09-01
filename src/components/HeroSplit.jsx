@@ -35,25 +35,11 @@ export default function HeroSplit() {
             <a href="https://github.com/Geliiil" target="_blank" rel="noopener noreferrer" className="w-15 h-20 px-1 py-4 ">
               <img src="./icon/github-mark.png"className=" bg-white rounded-full w-10 h-10 hover:w-11 hover:h-11 "/>  
             </a>
-            <div className="mt-4 w-80 h-10 bg-white rounded-xl shadow-sm px-2
-                flex items-center gap-2">
-              <img
-                src="icon/gmail.png"  // 或用你的 asset()：asset("icon/gmail.png")
-                alt="gmail"
-                className="w-6 h-6 shrink-0 rounded"
-              />
-              <p className="flex-1 min-w-0 truncate text-sm leading-none">ge268413975@gmail.com</p>
-
-              <button
-                type="button"
-                onClick={copy}
-                className="shrink-0 h-8 px-3 rounded-xl border border-black
-                          hover:bg-stone-100 cursor-pointer bg-white"
-              >
-                Copy
-              </button>
+            <div className="flex flex-nowrap  mt-4 h-10 w-80 bg-white rounded-xl gap-1 shadow-sm">
+              <img src="./icon/gmail.png"className="  rounded-xl bg-white w-12 h-10 "/>  
+              <p className=" p-2 mb-5 ">ge268413975@gmail.com</p>
+              <botton className="px-3 p-1.5 h-10 rounded-xl hover:bg-stone-100 cursor-pointer" onClick={copy}>Copy</botton>
             </div>
-
           </div>
         </div>
         
