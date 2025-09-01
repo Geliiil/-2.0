@@ -7,6 +7,7 @@ import AboutBlock from "./components/AboutBlock";
 import PortfolioShowcase from "./components/Portfolio";
 import Footer from "./components/Footer";
 import FallingLeaves from "./components/FallingLeaf";
+import { asset } from "./asset";    
 
 export default function App() {
   return (
