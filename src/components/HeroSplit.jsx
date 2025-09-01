@@ -42,13 +42,13 @@ export default function HeroSplit() {
                 alt="gmail"
                 className="w-6 h-6 shrink-0 rounded"
               />
-              <p className="flex-1 truncate text-sm">ge268413975@gmail.com</p>
+              <p className="flex-1 min-w-0 truncate text-sm leading-none">ge268413975@gmail.com</p>
 
               <button
                 type="button"
                 onClick={copy}
                 className="shrink-0 h-8 px-3 rounded-xl border border-black
-                          hover:bg-stone-100 cursor-pointer"
+                          hover:bg-stone-100 cursor-pointer bg-white"
               >
                 Copy
               </button>
