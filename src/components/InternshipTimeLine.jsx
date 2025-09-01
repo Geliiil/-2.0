@@ -100,7 +100,7 @@ export default function InternshipTimeline({ items = ITEMS }) {
           {cur.tags?.length ? (
             <div className="mt-4 flex flex-wrap gap-2">
               {cur.tags.map((t) => (
-                <span key={t} className="px-2.5 py-1 rounded-full bg-black text-xs">
+                <span key={t} className="px-2.5 py-1 rounded-full bg-black text-white text-xs">
                   {t}
                 </span>
               ))}
