@@ -6,19 +6,18 @@ import InternshipTimeLine from "./components/InternshipTimeLine";
 import AboutBlock from "./components/AboutBlock";
 import PortfolioShowcase from "./components/Portfolio";
 import Footer from "./components/Footer";
-import FallingLeaves from "./components/FallingLeaf";
-import { asset } from "./asset";    
+import FallingLeaves from "./components/FallingLeaf";   
 
 export default function App() {
   return (
     <div className="min-h-screen bg-stone-100">
       <div className="relative isolate min-h-[100dvh] w-screen overflow-x-clip bg-stone-100" >
         <FallingLeaves
-            images={["/icon/leaf_1.PNG", 
-              "/icon/leaf_2.PNG",
-              "/icon/leaf_3.PNG",
-              "/icon/leaf_4.PNG",
-              "/icon/leaf_5.PNG",
+            images={["icon/leaf_1.PNG", 
+              "icon/leaf_2.PNG",
+              "icon/leaf_3.PNG",
+              "icon/leaf_4.PNG",
+              "icon/leaf_5.PNG",
             ]}
             count={5}
             className="absolute inset-0 z- opacity-70 pointer-events-none outline outline-1 outline-red-500"
