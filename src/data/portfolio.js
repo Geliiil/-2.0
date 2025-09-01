@@ -54,7 +54,7 @@ const Project = [
     {
     title: "生態氣候圖套件修改延伸-R",
     org: "R",
-    summary:"為了簡易CODIS氣候觀測資料前處理與更改生態氣候圖版面排版，將前處理過程整合至 R Script 中，並提取 climatol package 中的 diagwl function 修改程式碼、存成新檔與改名，與前處理整合使用",
+    summary:"為了簡易CODIS氣候觀測資料前處理與更改生態氣候圖版面排版，將前處理過程整合至 R Script 中，並提取 climatol package 中的 diagwl function 修改程式碼、存成新檔與改名，與前處理整合使用。",
     images:[
         "/portfolio-image/生態氣候圖.png",
     ],
@@ -67,7 +67,7 @@ const Project = [
     {
     title: "枯落物動態研究",
     org: "Python Data analysis",
-    summary:"枯落物動態研究是我正在執行的研究方向，希望可以從枯落物中窺看森林、植物社會的運作模式。枯落物除了是植物對這世界上不斷留存下來的痕跡，也是為生存的環境中不斷注入新的能量。",
+    summary:"枯落物動態研究是我正在執行的研究方向，希望可以從枯落物中窺看森林、植物社會的運作模式。枯落物是植物在這世界上不斷留存下來的痕跡，也是在環境中不斷注入新能量的來源。",
     images:[
         "/portfolio-image/枯落物海報.png",
     ], 
