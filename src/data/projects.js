@@ -9,7 +9,7 @@ const ITEMS = [
       "/image/wildlife_lab.jpg",
     ], 
     link: "https://www.facebook.com/share/v/19ekBw94id/",
-    link_photo:"docs/icon/facebook-logo.png",
+    link_photo:"{`${import.meta.env.BASE_URL}icon/facebook-logo.png`}",
     link_name:"野生動物保育與管理研究室粉專",
     tags: ["野生動物", "穿山甲"],
   },
