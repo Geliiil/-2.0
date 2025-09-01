@@ -39,7 +39,7 @@ export default function FallingLeaves({
     <div
       aria-hidden
       className={[
-        "pointer-events-none fixed inset-0 z-40 overflow-hidden select-none",
+        "pointer-events-none fixed inset-0 -z-10 overflow-hidden select-none",
         hideOnMobile ? "hidden sm:block" : "",
         className,
       ].join(" ")}
