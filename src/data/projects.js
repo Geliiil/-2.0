@@ -6,7 +6,7 @@ const ITEMS = [
     end: "2024-07",
     summary: "參與志工並接觸自動照相機相片分類工作，是我認識臺灣野生動物的開始。暑期實習除了基本相片分類，也參與陽明山白蟻挖掘和飛鼠影片觀測。",
     images:[
-      "/image/wildlife_lab.jpg",
+      "/portfolio/image/wildlife_lab.jpg",
     ], 
     link: "https://www.facebook.com/share/v/19ekBw94id/",
     link_photo:"/icon/facebook-logo.png",
